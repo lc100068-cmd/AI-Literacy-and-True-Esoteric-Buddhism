@@ -66,6 +66,7 @@
   .intro h2{font-size:clamp(22px,6.5vw,28px);line-height:1.85;letter-spacing:.01em}
   .intro-spark{display:none}
   .intro-copy{font-size:15px;line-height:2;letter-spacing:.015em;padding-top:0}
+  .intro-copy p,.learning-item p,.faq-answer{text-wrap:pretty}
   .intro-copy p+p{margin-top:19px}
   .thoughts{display:block;margin-top:29px;padding:23px 0}
   .thoughts>span{font-size:16px;letter-spacing:.015em}
@@ -108,6 +109,7 @@
   .voice-card{padding:28px 24px 24px}
   .quote-mark{font-size:58px;height:34px}
   .voice-card blockquote{font-size:15px;line-height:2;letter-spacing:.01em;margin-top:14px;margin-bottom:23px}
+  .voice-card blockquote p{text-wrap:balance}
   .voice-card blockquote p+p{margin-top:18px}
   .voice-card figcaption{font-size:13px;padding-top:18px;gap:13px}
   .initials{height:42px;width:42px;font-size:12px;flex:none}
